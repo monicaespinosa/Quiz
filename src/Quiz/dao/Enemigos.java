@@ -5,11 +5,11 @@ public class Enemigos {
      * animacion es el movimiento del personaje
      */
     private String animacion;
-    private String nEnemigosNivel;
+    private int nEnemigosNivel;
     private String nVelocidad;
     private Casilla casilla;
 
-    public Enemigos(String nombre, String animacion, String nEnemigosNivel, String nVelocidad, Casilla casilla) {
+    public Enemigos(String nombre, String animacion, int nEnemigosNivel, String nVelocidad, Casilla casilla) {
         this.nombre = nombre;
         this.animacion = animacion;
         this.nEnemigosNivel = nEnemigosNivel;
@@ -29,7 +29,7 @@ public class Enemigos {
     public void setAnimacion(String animacion) {
         this.animacion = animacion;
     }
-    public String getnEnemigosNivel() {
+    public int getnEnemigosNivel() {
         return nEnemigosNivel;
     }
     public Casilla getCasilla() {
@@ -38,7 +38,7 @@ public class Enemigos {
     public void setCasilla(Casilla casilla) {
         this.casilla = casilla;
     }
-    public void setnEnemigosNivel(String nEnemigosNivel) {
+    public void setnEnemigosNivel(int nEnemigosNivel) {
         this.nEnemigosNivel = nEnemigosNivel;
     }
     public String getnVelocidad() {
